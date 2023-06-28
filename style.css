@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(./images/bg-img.webp);
+    height:100vh;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.container{
+    max-width:1800px;
+    margin:0 auto;
+}
+.main-pg-nav{
+    margin-top:45px;
+}
+.main-pg-nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+.main-pg-nav a{
+    text-decoration: none;
+    padding-right:20px;
+    font-size: 28px;
+    color: white;
+}
+.blue-space{
+    width:1600px;
+    height:250px;
+    background-color: #41303f;
+    border-radius: 35px 35px 0px 0px;
+    margin: 0 auto;
+    margin-top:100px;
+    display: flex;
+}
+.my-photo{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left:50px;
+    margin-top:80px;
+    position: absolute;
+
+}
+.blue-space-links{
+    display: flex;
+    margin-left:670px;
+    margin-top:20px;
+}
+.blue-space-links a{
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    padding-left:80px;
+}
+.blue-space-links a::after{
+    position: absolute;
+    content: "";
+    height: 50px;
+    background-color: #ffffff;
+    width: 1px;
+    margin-left: 30px;
+}
+.blue-box{
+    width:1600px;
+    height:600px;
+    background-color: #321D2F;
+    margin: 0 auto;
+    display: flex;
+}
+.my-name{
+    position: absolute;
+    margin-left:350px;
+    margin-top:12px;
+}
+.my-name h3{
+    font-size: 40px;
+    color:white;
+}
+.profession{
+    color: white;
+    font-size: 25px;
+}
+.skills{
+    position: absolute;
+    display: flex;
+    margin-left:900px;
+    margin-top:20px;
+}
+.skills span{
+    font-size: 25px;
+    color:rgb(49, 49, 49);
+}
+.skill{
+    text-align: center;
+    width:100px;
+    height:30px;
+    background-color: #858585;
+    margin-right:30px;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+}
+.skill:hover{
+    background-color: rgb(109, 102, 102);
+    transform: scale(1.1);
+}
+.blue-box-info{
+    color:white;
+    font-size: 35px;
+    padding:0px 40px 0px 40px;
+}
+.my-main-info{
+    margin-top:140px;
+}
+.my-info{
+    position: absolute;
+    margin-top:40px;
+    margin-left:850px;
+}
+.contact-with-me{
+margin-top:80px;
+}
+.inst-div{
+    display: flex;
+    margin-top:15px;
+}
+.instagram-icon{
+    width:40px;
+    height:40px;
+}
+.my-inst{
+    margin-top:2px;
+}
+.my-inst-link{
+    color:rgb(0, 94, 255);
+    transition-duration:0.3s;
+}
+.my-inst-link:hover{
+    color:rgb(255, 255, 255);
+    margin-left:10px;
+    transform:scale(1.1);
+}
+.my-gmail{
+    color:rgb(0, 94, 255);
+    margin-top:15px;
+    transition-duration: 0.3s;
+}
+.my-gmail:hover{
+    color: white;
+    transform:scale(1.1);
+    margin-left:10px;
+}
+.info-line{
+    width:100%;
+    margin:0 auto;
+    height:60px;
+    background-color:rgb(201, 201, 201);
+}
+.about-works-div{
+    background-color: #321D2F;
+    height:220px;
+}
+.about-works p{
+    text-align: center;
+    font-size:30px;
+    color:white;
+    padding-top:50px;
+}
+.works-container{
+    height:100vh;
+    margin-top:10px;
+}
+.works{
+    display: flex;
+    flex-wrap:wrap;
+    max-width:1910px;
+    margin:0 auto;
+}
+.work-links{
+    text-decoration: none;
+}
+.site1{
+    height:460px;
+    width:910px;
+    background-color: rgb(0, 0, 0);
+    margin-left:27px;
+    margin-top:25px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.44);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.2s;
+}
+.site1:hover{
+    transform: scale(1.05);
+}
+.karting-site{
+    height:460px;
+    width:910px;
+    background-color: rgb(255, 255, 255);
+    margin-top:25px;
+    margin-left:37px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.44);
+    background-image: url(./images/karting-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.2s;
+}
+.karting-site:hover{
+    transform: scale(1.05);
+}
+.karting-site-info{
+    height:100px;
+    width:910px;
+    background-color: rgba(215, 215, 215, 0.3);
+    position:absolute;
+    margin-top:360px;
+}
+.karting-site-info p{
+    font-size:25px;
+    color:black;
+    font-weight: 700;
+}
+.site3{
+    height:460px;
+    width:910px;
+    background-color: rgb(255, 255, 255);
+    margin-left:27px;
+    margin-top:37px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.44);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.2s;
+}
+.site3:hover{
+    transform: scale(1.05);
+}
+.site4{
+    height:460px;
+    width:910px;
+    background-color: rgb(0, 0, 0);
+    margin-left:37px;
+    margin-top:37px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.44);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.2s;
+}
+.site4:hover{
+    transform: scale(1.05);
+}

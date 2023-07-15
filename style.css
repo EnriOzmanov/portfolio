@@ -183,9 +183,8 @@ margin-top:80px;
     width:910px;
     background-color: rgb(255, 255, 255);
     margin-top:25px;
-
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.44);
-    background-image: url(./images/karting-site.jpg);
+    background-image: url(./images/enri.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     transition-duration: 0.2s;
@@ -248,7 +247,6 @@ margin-top:80px;
     width:100%;
     background-image: url(./images/sodi-kart.jpg);
     background-size:cover;
-    position: relative;
 }
 .ms-first-header{
     display: flex;
@@ -275,20 +273,10 @@ margin-top:80px;
 .sport-nav-desktop img{
     width:30px;
 }
-/* .sodi-img{
-    position:absolute;
-    top:200px;
-    max-width:550px;
-}
-.sodi-img img{
-    margin:0 auto;
-    display: block;
-    width:550px;
-    transform: translate(50%);
-} */
 .sodi-img{
+    margin:0 auto;
     position:absolute;
-    bottom:600px;
+    bottom:500px;
     left:50.6%;
     transform: translateX(-50%);
     width:550px;
@@ -299,7 +287,7 @@ margin-top:80px;
 .sodi-header-desktop{
     background-color: #111;;
     width:100%;
-    height:200px;
+    height:210px;
     display: flex;
 }
 .container-sodi-header{
@@ -327,25 +315,15 @@ margin-top:80px;
 .ms-series-desktop li{
     margin-left:15px;
 }
-.ms-series-desktop span{
+.ms-series-desktop a{
     text-decoration: none;
     color: white;
     font-size: 28px;
     font-weight: 700;
     transition-duration: 0.3s;
 }
-.ms-series-desktop span::after{
-    content:"";
-    height:40px;
-    width:1px;
-    background-color: white;
-    color: white;
-    position: absolute;
-    margin-left:6px;
-}
-.ms-series-desktop span:hover{
-    color:rgb(255, 217, 0);
-    font-size:29px;
+.ms-series-desktop a:hover{
+    background-color:rgb(57, 57, 57);
 }
 .social_networks{
     display: flex;
@@ -353,28 +331,348 @@ margin-top:80px;
     margin-left:737px;
     margin-top:-155px;
 }
-.social_networks div{
+.social_networks a{
     width:58px;
     height:58px;
     border: 1px solid rgb(135, 135, 135);
     margin-left:10px;
+    transition-duration: 0.1s;
 }
-i {
-    color:blue;
+.social_networks a:hover{
+    transform:scale(1.1);
+}
+.social_networks img{
+    width:58px;
+    height:58px;
 }
 .views{
     display: flex;
-    max-width:1900px;
+    max-width:2025px;
     margin:0 auto;
 }
 .sodi-game{
-    width:500px;
-    height:1000px;
-    background-color: black;
+    width:50%;
+    height:800px;
+    background-image: url(./images/sodi-game.jpg);
+    background-size: cover;
+}
+.racing-game{
+    font-size: 40px;
+    position: absolute;
+    margin-left:-470px;
+    margin-top:80px;
+    color: white;
+}
+.racing-game-pt2{
+    font-size: 40px;
+    position: absolute;
+    margin-left:-280px;
+    margin-top:122px;
+    color:#ff5220;
+}
+.game-open{
+    position: absolute;
+    margin-left:-340px;
+    margin-top:218px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    width:300px;
+    height:44px;
+    text-align: center;
+    padding-top:13px;
+    background-color: #ff5220;
+}
+.game-open:hover{
+    background-color:#fe683f;
+}
+.sodi-team{
+    height:50%;
+    width:100%; 
+    background-image: url(./images/karting-site.jpg);
+    background-size:cover;
+    transition-duration: 0.1s;
+    text-decoration: none;
+}
+.sodi-team:hover{
+    transform:scale(1.1);
 }
 .racing{
     display: flex;
+    flex-direction: column;
+    width:50%;
 }
-.sodi-team{
-    
+.racing-sport{
+    color:white;
+    font-size:20px;
+    font-weight: 700;
+    position: absolute;
+    margin-left:45px;
+    margin-top:65px;
 }
+.racing-team{
+    font-size: 40px;
+    color:#ff5220;
+    margin-top:90px;
+    margin-left:45px;
+}
+.start-team{
+    width:300px;
+    height:48px;
+    color:white;
+    font-size:30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top:10px;
+    border:2.5px solid #ff5220;
+    background-color: rgba(49, 49, 49, 0.44);
+    margin-left:45px;
+    margin-top:55px;
+    transition: 0.2s;
+}
+.start-team:hover{
+    background-color: rgba(140, 140, 140, 0.44);
+}
+.sodi-sws{
+    height:50%;
+    width: 100%;
+    background-image: url(./images/karting\ sws.jpg);
+    background-size:cover;
+    transition-duration: 0.1s;
+    text-decoration: none;
+}
+.sodi-sws:hover{
+    transform:scale(1.1);
+}
+.sws-series{
+    font-size:20px;
+    font-weight: 700;
+    margin-top:65px;
+    margin-left: 45px;
+    position: absolute;
+    color:white
+}
+.sws-rating{
+    font-size:40px;
+    color:#ff5220;
+    margin-left:45px;
+    margin-top:90px ;
+}
+.sws-rating-pt2{
+    font-size:40px;
+    color:#ffffff;
+    margin-left:45px;
+}
+.start-sws{
+    width:300px;
+    height:48px;
+    color:white;
+    font-size:30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top:10px;
+    border:2.5px solid #ff5220;
+    background-color: rgba(49, 49, 49, 0.44);
+    margin-left:45px;
+    margin-top:50px;
+    transition-duration: 0.2s;
+}
+.start-sws:hover{
+    background-color: rgba(140, 140, 140, 0.44);
+}
+.info-line{
+    width:100%;
+    height:100px;
+    background-color: #111;
+}
+.info-line div{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1900px;
+}
+.rent-karts{
+    font-size: 30px;
+    color:white;
+}
+.rent-karts-2{
+    font-size: 30px;
+    color: #ff5220;
+}
+.info-line-2{
+    width:100%;
+    height:100px;
+    background-color: #3a3a3a;
+}
+.sodi-container{
+    max-width:2025px;
+    height:65vh;
+    margin:0 auto;
+}
+.sport-karts{
+    display: flex;
+    text-decoration: none;
+}
+.sport-karts a{
+    height:400px;
+    width:600px;
+    text-decoration: none;
+    border:3px solid rgba(82, 82, 82, 0.44) ;
+    transition-duration: 0.1s;
+}
+.sport-karts a:hover{
+    transform: scale(1.01);
+}
+.sport-karts a:first-child{
+    border-left:none;
+}
+.sport-karts a:last-child{
+    border-right:none;
+}
+.sport-karts div{
+    border-top: 5px solid rgba(125, 125, 125, 0.44);
+    height:70px;
+    margin-top:43px;
+    display: flex;
+    transition-duration: 0.2s;
+}
+.sport-karts div:hover{
+    background-color: rgba(85, 85, 85, 0.44);
+}
+.sport-karts p{
+    font-size:50px;
+    margin-left:10px;
+    margin-top:2px;
+    color:black;
+}
+.fa-square-plus{
+    margin-left:450px;
+    margin-top:7px;
+    font-size:50px;
+    color:#474747;
+    position: absolute;
+    transition-duration: 0.2s;
+}
+.fa-square-plus:hover{
+    transform: scale(1.1);
+    color: #ff5220;
+}
+.sodi-view-all{
+    width:300px;
+    height:60px;
+    border:6px solid #ff5220;
+    margin:0 auto;
+    margin-top:70px;
+    background-color: black;
+    transition-duration: 0.1s;
+}
+.sodi-view-all:hover{
+    transform: scale(1.02);
+    background-color: #323232;
+}
+.sodi-view-all p{
+    color:white;
+    font-size:35px;
+    text-align: center;
+    margin-top:10px;
+}
+.sodi-world{
+    margin-top:100px;
+    height:700px;
+    width:100%;
+    background-image: url(./images/sodi_kart-header.jpg);
+    display: flex;
+}
+.sodi-world-info{
+    margin-left:420px;
+    margin-top:230px;
+    width:50%;
+    height:100%;
+}
+.sodi-world-info h3{
+    font-size:20px;
+    color:#ff5220;
+    font-weight:300;
+    margin-left:50px;
+}
+.sodi-all-world2{
+    font-weight: 700;
+    font-size:40px;
+    color:white;
+    margin-left:-10px;
+}
+.sodi-all-world{
+    font-size:40px;
+    color:white;
+    font-weight: 200;
+}
+.sodi-map-div{
+    position: absolute;
+    width:50%;
+    height:100%;
+}
+.sodi-world-map{
+    margin-top:170px;
+    margin-left:1050px;
+}
+.sodi-find{
+    background-color: #ff5220;
+    width:165px;
+    height:60px;
+    margin-left:130px;
+    margin-top:50px;
+}
+.sodi-find:hover{
+    background-color: #ff8c6c;
+    transform: scale(1.1);
+}
+.sodi-find p{
+    text-align: center;
+    font-size:30px;
+    color:white;
+    padding-top:11px;
+}
+.lock-icon{
+    margin-left:16.5px;
+    margin-top:14px;
+    color:#c6c6c6;
+}
+.lock-icon:hover{
+    color:white;
+}
+.envelope-icon{
+    margin-left:15px;
+    margin-top:14px;
+    color: #ff5220;
+}
+.envelope-icon:hover{
+    color:white;
+}
+.facebook-icon{
+    margin-left:19px;
+    margin-top:14px;
+    color:#3b5998;
+}
+.facebook-icon:hover{
+    color:white
+}
+.youtube-icon{
+    margin-left:13px;
+    margin-top:14px;
+    color:red;
+}
+.youtube-icon:hover{
+    color:white;
+}
+.lenguage-icon{
+    margin-top:13px;
+    margin-left:11px;
+    color:#3b5998;
+}
+.lenguage-icon:hover{
+    color:white;
+}
+/* .sodi-footer-container{
+    max-width:2020px;
+    height:50vh;
+    background-color: #111;
+} */
